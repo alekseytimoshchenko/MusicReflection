@@ -1,0 +1,5 @@
+*.a filter=lfs diff=lfs merge=lfs -text
+*.tet filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.scn filter=lfs diff=lfs merge=lfs -text
+*.bundle filter=lfs diff=lfs merge=lfs -text
