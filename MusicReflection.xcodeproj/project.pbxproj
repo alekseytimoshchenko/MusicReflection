@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A5B58A626ECA743000338F9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A5B58A526ECA743000338F9 /* README.md */; };
+		9A5B58A926ECA763000338F9 /* musicReflection.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9A5B58A826ECA763000338F9 /* musicReflection.gif */; };
 		FA1067DC225E4D2000D9A17D /* CircleShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = FA1067DB225E4D2000D9A17D /* CircleShader.metal */; };
 		FA3DB132230F385500925E52 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA3DB131230F385500925E52 /* music.mp3 */; };
 		FA8AD70F231DAC5B008BBBC7 /* SignalProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8AD70E231DAC5B008BBBC7 /* SignalProcessing.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A5B58A526ECA743000338F9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9A5B58A826ECA763000338F9 /* musicReflection.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = musicReflection.gif; sourceTree = "<group>"; };
 		FA1067DB225E4D2000D9A17D /* CircleShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = CircleShader.metal; sourceTree = "<group>"; };
 		FA3DB131230F385500925E52 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 		FA8AD70E231DAC5B008BBBC7 /* SignalProcessing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalProcessing.swift; sourceTree = "<group>"; };
@@ -41,9 +45,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A5B58A726ECA763000338F9 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				9A5B58A826ECA763000338F9 /* musicReflection.gif */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
 		FAD6D91422593AAF000BD72E = {
 			isa = PBXGroup;
 			children = (
+				9A5B58A526ECA743000338F9 /* README.md */,
+				9A5B58A726ECA763000338F9 /* assets */,
 				FAD6D91F22593AAF000BD72E /* MusicReflection */,
 			);
 			sourceTree = "<group>";
@@ -101,7 +115,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = alex;
 				TargetAttributes = {
 					FAD6D91C22593AAF000BD72E = {
@@ -134,6 +148,8 @@
 			files = (
 				FAD6D92522593AB0000BD72E /* Assets.xcassets in Resources */,
 				FAD6D92822593AB0000BD72E /* Main.storyboard in Resources */,
+				9A5B58A626ECA743000338F9 /* README.md in Resources */,
+				9A5B58A926ECA763000338F9 /* musicReflection.gif in Resources */,
 				FA3DB132230F385500925E52 /* music.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +209,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -254,6 +271,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -286,6 +304,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = SZ3552D2LU;
@@ -304,6 +323,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = SZ3552D2LU;
